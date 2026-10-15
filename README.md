@@ -3,44 +3,30 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![OpenFlow 1.3](https://img.shields.io/badge/OpenFlow-1.3-orange.svg)](https://opennetworking.org/)
 [![Mininet](https://img.shields.io/badge/Mininet-2.3+-green.svg)](http://mininet.org/)
-[![LaTeX: Compiled](https://img.shields.io/badge/LaTeX-PDF%20Ready-brightgreen.svg)](project%20report/main.pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An end-to-end, experimentally validated research framework for proactive, predictive self-healing in Software-Defined Networks (SDN) combining high-resolution streaming telemetry, temporal machine learning failure forecasting, barrier-penalized path optimization, and zero-loss Make-Before-Break (MBB) flow migration.
 
 ---
 
-## 👥 Student Research Project Team
+## 👤 Author
 
-- **Yashas Anand Kumar Vishwakarma** (25BCE2133)
-- **Aabha Manishkumar Parikh** (25BDS0307)
-- **Mohamed Yusouf Eijaaz M** (25BCE0755)
-
-*School of Computer Science and Engineering (SCOPE), Vellore Institute of Technology (VIT), Vellore, Tamil Nadu, India.*
+- **Yashas Vishwakarma** ([@yashas-yeet](https://github.com/yashas-yeet))
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Layout
 
 ```
 .
-├── project report/                  # Complete LaTeX manuscripts & compiled publication PDFs
-│   ├── main.pdf                     # 25-Page Formal VIT Research Project Report
-│   ├── main.tex                     # LaTeX source (VIT SCOPE compliant)
-│   ├── main_ieee_transactions.pdf   # IEEE Transactions 2-column manuscript PDF
-│   ├── main_ieee_transactions.tex   # LaTeX source for IEEE Transactions
-│   ├── main_article.pdf             # Universal article class PDF
-│   ├── main_article.tex             # LaTeX source for universal article class
-│   ├── references.bib               # Comprehensive 2025-2026 SDN citations
-│   ├── compile.ps1                  # One-click Windows PowerShell automated compiler
-│   └── figures/                     # Publication-ready vector & raster figures
-│       ├── fig0_architecture_loop.png
-│       ├── fig1_recovery_time_cdf.png
-│       ├── fig2_loss_boxplots.png
-│       └── fig3_failover_timeseries.png
-│
 └── sdn-selfheal/                    # Mininet & Ryu SDN Self-Healing Implementation
     ├── controller/                  # Ryu/OS-Ken OpenFlow 1.3 Controller modules
+    │   ├── base_controller.py       # Base OpenFlow 1.3 switch & ARP handling
+    │   ├── reactive_controller.py   # Baseline 1: Reactive Dijkstra rerouting
+    │   ├── fast_failover_ctrl.py    # Baseline 2: OpenFlow 1.3 Fast Failover groups
+    │   ├── threshold_controller.py  # Baseline 3: Dynamic threshold heuristics
+    │   ├── static_ml_ctrl.py        # Baseline 4: Non-temporal ML classifier
+    │   └── proactive_controller.py  # Proposed: Temporal ML + Risk Barrier + MBB
     ├── ml/                          # Feature extraction & temporal failure prediction
     ├── telemetry/                   # In-band & port stats collector
     ├── topologies/                  # Mesh, Fat-Tree k=4, and WAN B4 topologies
@@ -64,19 +50,25 @@ An end-to-end, experimentally validated research framework for proactive, predic
 
 ## 🚀 Quick Start
 
-### 1. Research Project Report
-To compile the LaTeX reports and manuscripts on Windows:
-```powershell
-cd "project report"
-.\compile.ps1
-```
-
-### 2. SDN Self-Healing Framework
 Inside Ubuntu / WSL:
+
 ```bash
 cd sdn-selfheal
+
+# 1. Environment Setup
 make setup
+
+# 2. Run Test Suite
+make test
+
+# 3. Execute Single Interactive Trial
 make run-single
+
+# 4. Run Full Experimental Benchmark Grid
+make run-all
+
+# 5. Generate Statistical Analysis & Figures
+make analyze
 ```
 
 ---
@@ -86,7 +78,7 @@ make run-single
 ```bibtex
 @article{selfheal_sdn_2026,
   title   = {Self-Healing Software-Defined Networks Using AI-Based Failure Prediction and Dynamic Make-Before-Break Rerouting},
-  author  = {Vishwakarma, Yashas Anand Kumar and Parikh, Aabha Manishkumar and Eijaaz M, Mohamed Yusouf},
+  author  = {Vishwakarma, Yashas},
   journal = {IEEE Transactions on Network and Service Management},
   year    = {2026}
 }

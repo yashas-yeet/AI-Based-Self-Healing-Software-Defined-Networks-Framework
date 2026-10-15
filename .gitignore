@@ -33,3 +33,7 @@ htmlcov/
 Thumbs.db
 .vscode/
 .idea/
+
+# Reports and LaTeX directory
+project report/
+

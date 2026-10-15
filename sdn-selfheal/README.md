@@ -176,7 +176,7 @@ make run-matrix
 ```bibtex
 @article{selfheal_sdn_2026,
   title   = {Self-Healing SDN Using AI-Based Failure Prediction and Dynamic Rerouting},
-  author  = {Vishwakarma, Yashas Anand Kumar and Parikh, Aabha Manishkumar and Eijaaz M, Mohamed Yusouf},
+  author  = {Vishwakarma, Yashas},
   journal = {IEEE Transactions on Network and Service Management},
   year    = {2026}
 }
