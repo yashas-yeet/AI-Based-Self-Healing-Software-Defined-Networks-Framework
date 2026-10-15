@@ -71,15 +71,3 @@ make run-all
 make analyze
 ```
 
----
-
-## 📖 Citation
-
-```bibtex
-@article{selfheal_sdn_2026,
-  title   = {Self-Healing Software-Defined Networks Using AI-Based Failure Prediction and Dynamic Make-Before-Break Rerouting},
-  author  = {Vishwakarma, Yashas},
-  journal = {IEEE Transactions on Network and Service Management},
-  year    = {2026}
-}
-```

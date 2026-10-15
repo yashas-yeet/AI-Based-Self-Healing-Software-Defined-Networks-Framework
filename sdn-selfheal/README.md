@@ -171,16 +171,7 @@ make run-matrix
 
 ---
 
-## Citation & References
-
-```bibtex
-@article{selfheal_sdn_2026,
-  title   = {Self-Healing SDN Using AI-Based Failure Prediction and Dynamic Rerouting},
-  author  = {Vishwakarma, Yashas},
-  journal = {IEEE Transactions on Network and Service Management},
-  year    = {2026}
-}
-```
+## References
 
 - **Sengendo & Granelli (2026)**: "Digital Twin Synchronization and Telemetry Anomaly Detection in Programmable Data Planes", *Computer Networks*.
 - **Troia et al. (2025)**: "In-Band Telemetry-Driven Traffic Engineering for Next-Generation SD-WANs", *IEEE INFOCOM*.
