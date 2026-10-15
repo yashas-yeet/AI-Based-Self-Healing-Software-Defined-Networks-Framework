@@ -1,0 +1,15 @@
+{
+  "topology": "mesh",
+  "controller": "B1",
+  "failure_type": "hard_down",
+  "traffic_load": "medium",
+  "seed": 7234,
+  "recovery_time_ms": 431.11934814344113,
+  "total_packets_lost": 6208,
+  "packet_loss_pct": 4.966666666666666,
+  "mean_throughput_failover_mbps": 47.51,
+  "mean_rtt_ms": 3.250388495699748,
+  "jitter_ms": 1.2526281793286653,
+  "lead_time_sec": 0.0,
+  "control_plane_flow_mods": 8
+}

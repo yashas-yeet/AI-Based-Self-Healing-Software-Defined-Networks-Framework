@@ -1,0 +1,15 @@
+{
+  "topology": "wan",
+  "controller": "B1",
+  "failure_type": "gradual",
+  "traffic_load": "light",
+  "seed": 4096,
+  "recovery_time_ms": 282.15900307991825,
+  "total_packets_lost": 6102,
+  "packet_loss_pct": 12.204124860646601,
+  "mean_throughput_failover_mbps": 13.382595317725752,
+  "mean_rtt_ms": 15.092762781738987,
+  "jitter_ms": 19.467706171242337,
+  "lead_time_sec": 0.0,
+  "control_plane_flow_mods": 8
+}

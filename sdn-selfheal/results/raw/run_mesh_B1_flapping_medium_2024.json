@@ -1,0 +1,15 @@
+{
+  "topology": "mesh",
+  "controller": "B1",
+  "failure_type": "flapping",
+  "traffic_load": "medium",
+  "seed": 2024,
+  "recovery_time_ms": 302.11667558300456,
+  "total_packets_lost": 6208,
+  "packet_loss_pct": 4.966666666666666,
+  "mean_throughput_failover_mbps": 47.51,
+  "mean_rtt_ms": 3.246486347216816,
+  "jitter_ms": 1.256283766684567,
+  "lead_time_sec": 0.0,
+  "control_plane_flow_mods": 8
+}

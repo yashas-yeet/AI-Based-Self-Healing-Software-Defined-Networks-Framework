@@ -1,0 +1,15 @@
+{
+  "topology": "fattree",
+  "controller": "B2",
+  "failure_type": "flapping",
+  "traffic_load": "heavy",
+  "seed": 2024,
+  "recovery_time_ms": 25000.0,
+  "total_packets_lost": 24750,
+  "packet_loss_pct": 12.375139353400225,
+  "mean_throughput_failover_mbps": 40.76097212931995,
+  "mean_rtt_ms": 16.85498690463042,
+  "jitter_ms": 19.270976945636324,
+  "lead_time_sec": 0.0,
+  "control_plane_flow_mods": 2
+}

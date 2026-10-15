@@ -1,0 +1,15 @@
+{
+  "topology": "wan",
+  "controller": "M",
+  "failure_type": "flapping",
+  "traffic_load": "medium",
+  "seed": 101,
+  "recovery_time_ms": 7.576643012535726,
+  "total_packets_lost": 0,
+  "packet_loss_pct": 0.0,
+  "mean_throughput_failover_mbps": 49.24666666666667,
+  "mean_rtt_ms": 3.0629806938929964,
+  "jitter_ms": 1.1827879575837552,
+  "lead_time_sec": 8.199417352420914,
+  "control_plane_flow_mods": 12
+}

@@ -1,0 +1,15 @@
+{
+  "topology": "mesh",
+  "controller": "B2",
+  "failure_type": "gradual",
+  "traffic_load": "medium",
+  "seed": 42,
+  "recovery_time_ms": 25000.0,
+  "total_packets_lost": 15468,
+  "packet_loss_pct": 12.375139353400225,
+  "mean_throughput_failover_mbps": 25.475607580824967,
+  "mean_rtt_ms": 16.85652119645926,
+  "jitter_ms": 19.269698789116386,
+  "lead_time_sec": 0.0,
+  "control_plane_flow_mods": 2
+}

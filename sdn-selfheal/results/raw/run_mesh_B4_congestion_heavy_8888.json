@@ -1,0 +1,15 @@
+{
+  "topology": "mesh",
+  "controller": "B4",
+  "failure_type": "congestion",
+  "traffic_load": "heavy",
+  "seed": 8888,
+  "recovery_time_ms": 1368.8161747982376,
+  "total_packets_lost": 602,
+  "packet_loss_pct": 0.3014492753623189,
+  "mean_throughput_failover_mbps": 77.16150724637681,
+  "mean_rtt_ms": 3.574620880042638,
+  "jitter_ms": 1.984296686162694,
+  "lead_time_sec": 2.796592492989954,
+  "control_plane_flow_mods": 2
+}

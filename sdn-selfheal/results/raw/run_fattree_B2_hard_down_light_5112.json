@@ -1,0 +1,15 @@
+{
+  "topology": "fattree",
+  "controller": "B2",
+  "failure_type": "hard_down",
+  "traffic_load": "light",
+  "seed": 5112,
+  "recovery_time_ms": 3.6202081177753955,
+  "total_packets_lost": 46,
+  "packet_loss_pct": 0.09333333333333334,
+  "mean_throughput_failover_mbps": 19.064,
+  "mean_rtt_ms": 4.318215785550067,
+  "jitter_ms": 7.167334652532166,
+  "lead_time_sec": 0.0,
+  "control_plane_flow_mods": 2
+}

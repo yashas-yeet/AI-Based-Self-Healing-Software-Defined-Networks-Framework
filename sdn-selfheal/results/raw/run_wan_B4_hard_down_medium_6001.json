@@ -1,0 +1,15 @@
+{
+  "topology": "wan",
+  "controller": "B4",
+  "failure_type": "hard_down",
+  "traffic_load": "medium",
+  "seed": 6001,
+  "recovery_time_ms": 1017.2985001797624,
+  "total_packets_lost": 376,
+  "packet_loss_pct": 0.3014492753623189,
+  "mean_throughput_failover_mbps": 48.22594202898551,
+  "mean_rtt_ms": 3.5682442010534987,
+  "jitter_ms": 1.9890406222573485,
+  "lead_time_sec": 1.6008209722249154,
+  "control_plane_flow_mods": 2
+}
